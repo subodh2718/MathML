@@ -37,7 +37,8 @@ def plot_distribution(data, mean, std):
     plt.xlabel('Value')
     plt.ylabel('Density')
     plt.legend()
-    plt.show()
+    plt.savefig('output_plot.png')
+
 
 if __name__ == "__main__":
     # Sample data: Normally distributed data
